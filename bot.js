@@ -5,10 +5,10 @@ Issues
 Marketplace
 Explore
  
-@richusir 
+@frox
 richusir
 /
-RICHUSER_B1
+FROX
 Public
 forked from richusir/RICHUSER_B1
 0
@@ -21,13 +21,13 @@ Wiki
 Security
 Insights
 Settings
-RICHUSER_B1/bot.js /
-@richusir
-richusir Create bot.js
+FROX/bot.js /
+@froxser
+froxser Create bot.js
 Latest commit 21d64e4 on 9 Aug
  History
  11 contributors
-@farhan-dqz@phaticusthiccy@yusufusta@richusir@lyfe00011@MuhammedKpln@saidalisaid2@afnanplk@Xenon67@oguz162@justinthoms
+@farhan-dqz@phaticusthiccy@yusufusta@froxser@lyfe00011@MuhammedKpln@saidalisaid2@afnanplk@Xenon67@oguz162@justinthoms
 274 lines (239 sloc)  11.5 KB
   
 /* Copyright (C) 2020 Yusuf Usnta.
@@ -164,7 +164,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
         });
 
         console.log(
-            chalk.green.bold('Richuser working perfectly 💘')
+            chalk.green.bold('Froxser working perfectly 💘')
         );
     });
     
