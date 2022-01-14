@@ -51,7 +51,7 @@ Asena.addCommand({on: 'text', fromMe: false }, (async (message, match) => {
     if(Config.BGMFILTER){
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
-        if (!!message.mention && message.mention[0] == '919895828468@s.whatsapp.net') {
+        if (!!message.mention && message.mention[0] == '916235169235@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/mention.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
 const array = ['kalam']
@@ -174,7 +174,7 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
     if(Config.STICKERP){
     let banned = jid.find( Jid => Jid === message.jid);
     if(banned !== undefined) return
-    if (!!message.mention && message.mention[0] == '15862077024@s.whatsapp.net') {
+    if (!!message.mention && message.mention[0] == '916235169235@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./stickers/mention.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
     }
 const array = ['love','list','machu','menu','mute','onn','oo','so','unmute','wait','adi','army','bye','chaya','edit','ip','kayari','mari','money','monu','nallath','night','nyt','on','patti','po','poth','sir','Amal','Hii','ee','Da','food','Hlo','para','love u','set','sed','jada','amal','Hi','sad','don','Loki','bye']
